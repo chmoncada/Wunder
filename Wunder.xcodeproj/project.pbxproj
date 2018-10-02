@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A15A59C121600A5B00C0FA41 /* CodingUserInfoKey+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A59C021600A5B00C0FA41 /* CodingUserInfoKey+Util.swift */; };
+		A15A59C421600E4A00C0FA41 /* Wunder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A15A59C221600E4A00C0FA41 /* Wunder.xcdatamodeld */; };
+		A15A59C721600F3A00C0FA41 /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A59C521600F3A00C0FA41 /* Car+CoreDataClass.swift */; };
+		A15A59C821600F3A00C0FA41 /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A59C621600F3A00C0FA41 /* Car+CoreDataProperties.swift */; };
 		A16EE272215E8770008F1BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EE271215E8770008F1BC0 /* AppDelegate.swift */; };
 		A16EE274215E8770008F1BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EE273215E8770008F1BC0 /* ViewController.swift */; };
 		A16EE277215E8770008F1BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16EE275215E8770008F1BC0 /* Main.storyboard */; };
 		A16EE279215E8771008F1BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16EE278215E8771008F1BC0 /* Assets.xcassets */; };
 		A16EE27C215E8771008F1BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16EE27A215E8771008F1BC0 /* LaunchScreen.storyboard */; };
 		A16EE287215E8771008F1BC0 /* WunderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EE286215E8771008F1BC0 /* WunderTests.swift */; };
+		A18127672163A30200124A8C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18127662163A30200124A8C /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A15A59C021600A5B00C0FA41 /* CodingUserInfoKey+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodingUserInfoKey+Util.swift"; sourceTree = "<group>"; };
+		A15A59C321600E4A00C0FA41 /* Wunder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wunder.xcdatamodel; sourceTree = "<group>"; };
+		A15A59C521600F3A00C0FA41 /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A15A59C621600F3A00C0FA41 /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A16EE26E215E8770008F1BC0 /* Wunder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wunder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16EE271215E8770008F1BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A16EE273215E8770008F1BC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +45,7 @@
 		A16EE282215E8771008F1BC0 /* WunderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16EE286215E8771008F1BC0 /* WunderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderTests.swift; sourceTree = "<group>"; };
 		A16EE288215E8771008F1BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18127662163A30200124A8C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A15A59BC216009F100C0FA41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A15A59C521600F3A00C0FA41 /* Car+CoreDataClass.swift */,
+				A15A59C621600F3A00C0FA41 /* Car+CoreDataProperties.swift */,
+				A15A59C221600E4A00C0FA41 /* Wunder.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A15A59BF21600A4700C0FA41 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A15A59C021600A5B00C0FA41 /* CodingUserInfoKey+Util.swift */,
+				A18127662163A30200124A8C /* CoreDataStack.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		A16EE265215E8770008F1BC0 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +106,8 @@
 		A16EE270215E8770008F1BC0 /* Wunder */ = {
 			isa = PBXGroup;
 			children = (
+				A15A59BF21600A4700C0FA41 /* Utils */,
+				A15A59BC216009F100C0FA41 /* Models */,
 				A16EE271215E8770008F1BC0 /* AppDelegate.swift */,
 				A16EE273215E8770008F1BC0 /* ViewController.swift */,
 				A16EE275215E8770008F1BC0 /* Main.storyboard */,
@@ -197,7 +228,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15A59C421600E4A00C0FA41 /* Wunder.xcdatamodeld in Sources */,
+				A15A59C121600A5B00C0FA41 /* CodingUserInfoKey+Util.swift in Sources */,
 				A16EE274215E8770008F1BC0 /* ViewController.swift in Sources */,
+				A18127672163A30200124A8C /* CoreDataStack.swift in Sources */,
+				A15A59C721600F3A00C0FA41 /* Car+CoreDataClass.swift in Sources */,
+				A15A59C821600F3A00C0FA41 /* Car+CoreDataProperties.swift in Sources */,
 				A16EE272215E8770008F1BC0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +499,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A15A59C221600E4A00C0FA41 /* Wunder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A15A59C321600E4A00C0FA41 /* Wunder.xcdatamodel */,
+			);
+			currentVersion = A15A59C321600E4A00C0FA41 /* Wunder.xcdatamodel */;
+			path = Wunder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A16EE266215E8770008F1BC0 /* Project object */;
 }
