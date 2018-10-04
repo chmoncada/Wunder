@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A139C8FF216592AC00CE1DB0 /* Wunder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A15A59C221600E4A00C0FA41 /* Wunder.xcdatamodeld */; };
+		A139C90121659DB500CE1DB0 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = A139C90021659DB500CE1DB0 /* locations.json */; };
+		A139C9032165A68F00CE1DB0 /* wrongLocations.json in Resources */ = {isa = PBXBuildFile; fileRef = A139C9022165A68F00CE1DB0 /* wrongLocations.json */; };
 		A15A59C121600A5B00C0FA41 /* CodingUserInfoKey+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A59C021600A5B00C0FA41 /* CodingUserInfoKey+Util.swift */; };
 		A15A59C421600E4A00C0FA41 /* Wunder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A15A59C221600E4A00C0FA41 /* Wunder.xcdatamodeld */; };
 		A15A59C721600F3A00C0FA41 /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A59C521600F3A00C0FA41 /* Car+CoreDataClass.swift */; };
@@ -17,9 +20,9 @@
 		A16EE277215E8770008F1BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16EE275215E8770008F1BC0 /* Main.storyboard */; };
 		A16EE279215E8771008F1BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16EE278215E8771008F1BC0 /* Assets.xcassets */; };
 		A16EE27C215E8771008F1BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16EE27A215E8771008F1BC0 /* LaunchScreen.storyboard */; };
-		A16EE287215E8771008F1BC0 /* WunderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EE286215E8771008F1BC0 /* WunderTests.swift */; };
 		A181276221639AE300124A8C /* CarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A181276121639AE300124A8C /* CarManager.swift */; };
 		A18127672163A30200124A8C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18127662163A30200124A8C /* CoreDataStack.swift */; };
+		A1F1C85C2163B8A700091F9F /* CarManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1C85B2163B8A700091F9F /* CarManagerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A139C90021659DB500CE1DB0 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		A139C9022165A68F00CE1DB0 /* wrongLocations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wrongLocations.json; sourceTree = "<group>"; };
 		A15A59C021600A5B00C0FA41 /* CodingUserInfoKey+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodingUserInfoKey+Util.swift"; sourceTree = "<group>"; };
 		A15A59C321600E4A00C0FA41 /* Wunder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wunder.xcdatamodel; sourceTree = "<group>"; };
 		A15A59C521600F3A00C0FA41 /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -46,10 +51,10 @@
 		A16EE27B215E8771008F1BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16EE27D215E8771008F1BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16EE282215E8771008F1BC0 /* WunderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WunderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A16EE286215E8771008F1BC0 /* WunderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderTests.swift; sourceTree = "<group>"; };
 		A16EE288215E8771008F1BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A181276121639AE300124A8C /* CarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarManager.swift; sourceTree = "<group>"; };
 		A18127662163A30200124A8C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		A1F1C85B2163B8A700091F9F /* CarManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarManagerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +132,7 @@
 		A16EE285215E8771008F1BC0 /* WunderTests */ = {
 			isa = PBXGroup;
 			children = (
-				A16EE286215E8771008F1BC0 /* WunderTests.swift */,
+				A1F1C85A2163B89400091F9F /* Managers */,
 				A16EE288215E8771008F1BC0 /* Info.plist */,
 			);
 			path = WunderTests;
@@ -137,6 +142,16 @@
 			isa = PBXGroup;
 			children = (
 				A181276121639AE300124A8C /* CarManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A1F1C85A2163B89400091F9F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A139C90021659DB500CE1DB0 /* locations.json */,
+				A139C9022165A68F00CE1DB0 /* wrongLocations.json */,
+				A1F1C85B2163B8A700091F9F /* CarManagerTests.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -232,6 +247,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A139C9032165A68F00CE1DB0 /* wrongLocations.json in Resources */,
+				A139C90121659DB500CE1DB0 /* locations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16EE287215E8771008F1BC0 /* WunderTests.swift in Sources */,
+				A1F1C85C2163B8A700091F9F /* CarManagerTests.swift in Sources */,
+				A139C8FF216592AC00CE1DB0 /* Wunder.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
