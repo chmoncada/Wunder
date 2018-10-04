@@ -10,13 +10,19 @@
 		A139C8FF216592AC00CE1DB0 /* Wunder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A15A59C221600E4A00C0FA41 /* Wunder.xcdatamodeld */; };
 		A139C90121659DB500CE1DB0 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = A139C90021659DB500CE1DB0 /* locations.json */; };
 		A139C9032165A68F00CE1DB0 /* wrongLocations.json in Resources */ = {isa = PBXBuildFile; fileRef = A139C9022165A68F00CE1DB0 /* wrongLocations.json */; };
+		A142E77F21611E99006C1D6E /* CarInfoCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142E77E21611E99006C1D6E /* CarInfoCardCell.swift */; };
+		A142E78221612652006C1D6E /* VerticalProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142E78121612652006C1D6E /* VerticalProgressBarView.swift */; };
+		A142E78421616C2F006C1D6E /* WunderViewController+UITableVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142E78321616C2F006C1D6E /* WunderViewController+UITableVIew.swift */; };
+		A142E78621616CAB006C1D6E /* WunderViewController+MapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A142E78521616CAB006C1D6E /* WunderViewController+MapKit.swift */; };
 		A15A59C121600A5B00C0FA41 /* CodingUserInfoKey+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A59C021600A5B00C0FA41 /* CodingUserInfoKey+Util.swift */; };
 		A15A59C421600E4A00C0FA41 /* Wunder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A15A59C221600E4A00C0FA41 /* Wunder.xcdatamodeld */; };
 		A15A59C721600F3A00C0FA41 /* Car+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A59C521600F3A00C0FA41 /* Car+CoreDataClass.swift */; };
 		A15A59C821600F3A00C0FA41 /* Car+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A59C621600F3A00C0FA41 /* Car+CoreDataProperties.swift */; };
+		A15A59CA21601BDB00C0FA41 /* UIViewController+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A59C921601BDB00C0FA41 /* UIViewController+Util.swift */; };
+		A15A59CD21602E9F00C0FA41 /* WunderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A59CC21602E9F00C0FA41 /* WunderPresenter.swift */; };
 		A15A59D22160325B00C0FA41 /* NSError+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A59D12160325B00C0FA41 /* NSError+Util.swift */; };
 		A16EE272215E8770008F1BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EE271215E8770008F1BC0 /* AppDelegate.swift */; };
-		A16EE274215E8770008F1BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EE273215E8770008F1BC0 /* ViewController.swift */; };
+		A16EE274215E8770008F1BC0 /* WunderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EE273215E8770008F1BC0 /* WunderViewController.swift */; };
 		A16EE277215E8770008F1BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16EE275215E8770008F1BC0 /* Main.storyboard */; };
 		A16EE279215E8771008F1BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16EE278215E8771008F1BC0 /* Assets.xcassets */; };
 		A16EE27C215E8771008F1BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16EE27A215E8771008F1BC0 /* LaunchScreen.storyboard */; };
@@ -38,14 +44,20 @@
 /* Begin PBXFileReference section */
 		A139C90021659DB500CE1DB0 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		A139C9022165A68F00CE1DB0 /* wrongLocations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wrongLocations.json; sourceTree = "<group>"; };
+		A142E77E21611E99006C1D6E /* CarInfoCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoCardCell.swift; sourceTree = "<group>"; };
+		A142E78121612652006C1D6E /* VerticalProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalProgressBarView.swift; sourceTree = "<group>"; };
+		A142E78321616C2F006C1D6E /* WunderViewController+UITableVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WunderViewController+UITableVIew.swift"; sourceTree = "<group>"; };
+		A142E78521616CAB006C1D6E /* WunderViewController+MapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WunderViewController+MapKit.swift"; sourceTree = "<group>"; };
 		A15A59C021600A5B00C0FA41 /* CodingUserInfoKey+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CodingUserInfoKey+Util.swift"; sourceTree = "<group>"; };
 		A15A59C321600E4A00C0FA41 /* Wunder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wunder.xcdatamodel; sourceTree = "<group>"; };
 		A15A59C521600F3A00C0FA41 /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A15A59C621600F3A00C0FA41 /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A15A59C921601BDB00C0FA41 /* UIViewController+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Util.swift"; sourceTree = "<group>"; };
+		A15A59CC21602E9F00C0FA41 /* WunderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderPresenter.swift; sourceTree = "<group>"; };
 		A15A59D12160325B00C0FA41 /* NSError+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSError+Util.swift"; sourceTree = "<group>"; };
 		A16EE26E215E8770008F1BC0 /* Wunder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wunder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16EE271215E8770008F1BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A16EE273215E8770008F1BC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A16EE273215E8770008F1BC0 /* WunderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WunderViewController.swift; sourceTree = "<group>"; };
 		A16EE276215E8770008F1BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A16EE278215E8771008F1BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A16EE27B215E8771008F1BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,6 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A142E78021612636006C1D6E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				A142E78121612652006C1D6E /* VerticalProgressBarView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		A148448721619B9F00C633D8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A142E77E21611E99006C1D6E /* CarInfoCardCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		A15A59BC216009F100C0FA41 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,10 +117,23 @@
 			isa = PBXGroup;
 			children = (
 				A15A59C021600A5B00C0FA41 /* CodingUserInfoKey+Util.swift */,
+				A15A59C921601BDB00C0FA41 /* UIViewController+Util.swift */,
 				A15A59D12160325B00C0FA41 /* NSError+Util.swift */,
 				A18127662163A30200124A8C /* CoreDataStack.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		A15A59CB21602E7700C0FA41 /* WunderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A148448721619B9F00C633D8 /* Cell */,
+				A16EE273215E8770008F1BC0 /* WunderViewController.swift */,
+				A142E78321616C2F006C1D6E /* WunderViewController+UITableVIew.swift */,
+				A142E78521616CAB006C1D6E /* WunderViewController+MapKit.swift */,
+				A15A59CC21602E9F00C0FA41 /* WunderPresenter.swift */,
+			);
+			path = WunderViewController;
 			sourceTree = "<group>";
 		};
 		A16EE265215E8770008F1BC0 = {
@@ -117,10 +158,11 @@
 			isa = PBXGroup;
 			children = (
 				A181276021639AD000124A8C /* Managers */,
+				A142E78021612636006C1D6E /* CustomViews */,
+				A15A59CB21602E7700C0FA41 /* WunderViewController */,
 				A15A59BF21600A4700C0FA41 /* Utils */,
 				A15A59BC216009F100C0FA41 /* Models */,
 				A16EE271215E8770008F1BC0 /* AppDelegate.swift */,
-				A16EE273215E8770008F1BC0 /* ViewController.swift */,
 				A16EE275215E8770008F1BC0 /* Main.storyboard */,
 				A16EE278215E8771008F1BC0 /* Assets.xcassets */,
 				A16EE27A215E8771008F1BC0 /* LaunchScreen.storyboard */,
@@ -259,15 +301,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15A59CA21601BDB00C0FA41 /* UIViewController+Util.swift in Sources */,
 				A15A59C421600E4A00C0FA41 /* Wunder.xcdatamodeld in Sources */,
+				A15A59CD21602E9F00C0FA41 /* WunderPresenter.swift in Sources */,
 				A15A59D22160325B00C0FA41 /* NSError+Util.swift in Sources */,
 				A15A59C121600A5B00C0FA41 /* CodingUserInfoKey+Util.swift in Sources */,
-				A16EE274215E8770008F1BC0 /* ViewController.swift in Sources */,
+				A16EE274215E8770008F1BC0 /* WunderViewController.swift in Sources */,
 				A18127672163A30200124A8C /* CoreDataStack.swift in Sources */,
+				A142E77F21611E99006C1D6E /* CarInfoCardCell.swift in Sources */,
+				A142E78621616CAB006C1D6E /* WunderViewController+MapKit.swift in Sources */,
 				A15A59C721600F3A00C0FA41 /* Car+CoreDataClass.swift in Sources */,
 				A15A59C821600F3A00C0FA41 /* Car+CoreDataProperties.swift in Sources */,
+				A142E78221612652006C1D6E /* VerticalProgressBarView.swift in Sources */,
 				A16EE272215E8770008F1BC0 /* AppDelegate.swift in Sources */,
 				A181276221639AE300124A8C /* CarManager.swift in Sources */,
+				A142E78421616C2F006C1D6E /* WunderViewController+UITableVIew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
