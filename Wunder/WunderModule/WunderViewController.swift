@@ -18,7 +18,7 @@ protocol WunderViewControllerProtocol: class {
 class WunderViewController: UIViewController {
 	public static func create(coreDataStack: CoreDataStackProtocol) -> WunderViewController {
 		let storyboard = UIStoryboard(name: "Main", bundle: nil)
-		let viewController = storyboard.instantiateViewController(withIdentifier: "ViewController") as! WunderViewController
+		let viewController = storyboard.instantiateViewController(withIdentifier: "WunderViewController") as! WunderViewController
 		let presenter = WunderPresenter(view: viewController, coreDataStack: coreDataStack)
 		viewController.presenter = presenter
 		return viewController
@@ -28,6 +28,7 @@ class WunderViewController: UIViewController {
 
 	@IBOutlet weak var tableView: UITableView!
 
+	@IBOutlet weak var segmentedControl: UISegmentedControl!
 	@IBOutlet weak var mapView: MKMapView!
 	let locationManager = CLLocationManager()
 

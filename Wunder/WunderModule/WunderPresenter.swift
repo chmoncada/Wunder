@@ -12,7 +12,7 @@ import CoreData
 // MARK: - PresenterProtocol
 
 protocol WunderPresenterProtocol {
-	var items: [Car] { get }
+	var items: [Car] { get set }
 	var itemCount: Int { get }
 
 	func item(at index: Int) -> Car
